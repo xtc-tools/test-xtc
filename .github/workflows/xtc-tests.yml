@@ -33,3 +33,6 @@ jobs:
       - name: List packages
         run: |
           pip list
+      - name: Run check
+        run: |
+          make check
